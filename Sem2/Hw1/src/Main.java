@@ -3,17 +3,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-class Student {
-    String name;
-    String presence;
-    int grade;
-
-    public Student(String name) {
-        this.name = name;
-        presence = "Не отмечен(а)";
-    }
-}
-
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -24,7 +13,6 @@ public class Main {
         do {
             System.out.println("Если нужна помощь, то введите '/h'.\n" +
                     "Чтобы выйти в любой момент введите 'q'\n");
-
             choice = in.nextLine();
             if (choice.equals("/h")) {
                 if (count < 5) {
@@ -59,6 +47,8 @@ public class Main {
                 }
             } else if (choice.equals("/r") && count >= 5){
                 System.out.println("Вы отметили всех студентов, теперь можно посмотреть только список.");
+            } else if (choice.isEmpty()){
+                System.out.println("Вы ввели пустую строку или недопустимый символ, попробуйте еще раз!\n");
             }
         } while (!choice.equals("q"));
     }
