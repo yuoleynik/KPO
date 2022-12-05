@@ -250,7 +250,7 @@ public class Field {
 
     // Метод для заполнения поля.
     void changeField(int choice, char color) {
-        // Тут также применялся способ через два for`a, однако результат тотже.
+        // Тут также применялся способ через два for`a, однако результат такой же.
         Cell[][] fieldCopy = new Cell[8][8];
         for (var i = 0; i < 8; i++) {
             fieldCopy[i] = field[i].clone();
