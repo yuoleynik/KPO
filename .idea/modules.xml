@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sem1/Hw1/Hw1.iml" filepath="$PROJECT_DIR$/Sem1/Hw1/Hw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sem1/Hw2/Hw2.iml" filepath="$PROJECT_DIR$/Sem1/Hw2/Hw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/KPO.iml" filepath="$PROJECT_DIR$/.idea/KPO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reversi/Reversi.iml" filepath="$PROJECT_DIR$/Reversi/Reversi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sem2/Sem2.iml" filepath="$PROJECT_DIR$/Sem2/Sem2.iml" />
+    </modules>
+  </component>
+</project>
